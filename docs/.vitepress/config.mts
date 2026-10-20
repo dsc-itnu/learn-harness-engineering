@@ -72,7 +72,6 @@ export default withMermaid(
       nav: [
         { text: "Lectures", link: enLectureItems[1].link, activeMatch: '^/en/(lectures/.*)?$' },
         { text: "Projects", link: enProjectItems[0].link, activeMatch: '^/en/projects/' },
-        { text: "Library", link: "/en/resources/", activeMatch: '^/en/resources/' },
         { text: "Skills", link: "/en/skills/", activeMatch: '^/en/skills/' },
         { text: "Codex Harness Design", link: "/en/harness-designs/", activeMatch: '^/en/harness-designs/' },
         { text: "Try Harness ↗", link: repoLink + "/blob/main/docs/en/resources/templates/index.md", target: "_blank", rel: "noopener noreferrer" }
