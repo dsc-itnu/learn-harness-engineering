@@ -3,6 +3,8 @@
 
 # Lecture 11. Making the Agent's Runtime Observable
 
+> Full templates and example snippets: [inline-examples](./code/inline-examples.md)
+
 An agent runs 20 minutes, touches many files, and says "done, but two tests are failing." Why? "Not sure, might be timing." The cause is not capability but missing observability. **Without it, agents decide under uncertainty, evaluations become subjective, and retries become blind wandering.** OpenAI and Anthropic both treat reliability as an evidence problem: the harness must expose runtime behavior and evaluation signals that guide the next decision.
 
 ## The Real Cost of Missing Observability

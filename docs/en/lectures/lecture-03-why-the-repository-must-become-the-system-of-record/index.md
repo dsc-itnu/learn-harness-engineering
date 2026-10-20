@@ -3,6 +3,8 @@
 
 # Lecture 03. Making the Repository the Single Source of Truth
 
+> Full templates and example snippets: [inline-examples](./code/inline-examples.md)
+
 Architecture decisions scattered across Confluence, Slack, Jira and senior engineers' heads barely work for humans, who can ask around. For an agent, information not in the repository does not exist. Its only inputs are the system prompt and task, repository files, and tool output; it can't "go ask someone."
 
 ## What Belongs on the Map

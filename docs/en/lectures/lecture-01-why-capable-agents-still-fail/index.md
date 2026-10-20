@@ -3,6 +3,8 @@
 
 # Lecture 01. Strong Models Don't Mean Reliable Execution
 
+> Full templates and example snippets: [inline-examples](./code/inline-examples.md)
+
 As of late 2025, top coding agents pass roughly 50-60% of SWE-bench Verified, whose tasks are carefully selected with clear issues and ready tests. With everyday requirements (vague specs, no tests, implicit business rules) it drops further. The agent runs 20 minutes, says "all done," and the code breaks tests, introduces new bugs, or isn't what you asked. The usual reaction is "buy a better model." The problem may not be the model.
 
 ## Same Horse, Different Fates

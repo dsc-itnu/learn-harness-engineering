@@ -3,6 +3,8 @@
 
 # Lecture 13. From Manual Prompting to Autonomous Loops
 
+> Full templates and example snippets: [inline-examples](./code/inline-examples.md)
+
 Lectures 1–12 assume **you are at the keyboard, typing instructions one at a time.** You wrote `AGENTS.md` (1–4), built state management (5–6), feature lists (7–8), clean handoffs (9, 12), and observability (10–11), but the trigger was always you. This lecture hands the start button to the system: not giving up control, elevating it.
 
 ## /goal: The Simplest Possible Loop

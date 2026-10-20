@@ -3,6 +3,8 @@
 
 # Lecture 06. Make the Agent Initialize Before Every Work Session
 
+> Full templates and example snippets: [inline-examples](./code/inline-examples.md)
+
 Told "add a search feature," an agent jumps into coding, then spends 30 minutes discovering a misconfigured test framework and a wrong migration format. Most of the session goes to "figuring out how this project works." A separate phase should ready the environment, run verification and learn the structure first.
 
 ## Two Fundamentally Different Kinds of Work

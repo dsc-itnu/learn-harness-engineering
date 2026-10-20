@@ -3,6 +3,8 @@
 
 # Lecture 05. Keeping Context Alive Across Sessions
 
+> Full templates and example snippets: [inline-examples](./code/inline-examples.md)
+
 Claude Code works 30 minutes on a feature, context runs low, and a new session starts. It doesn't know what was decided, why A was chosen over B, which files changed, or what state the tests are in. It spends 15 minutes re-exploring and may take an inconsistent approach. This lecture covers why agents lose the thread and how structured state persistence fixes it.
 
 ## Context Windows: Not Infinite

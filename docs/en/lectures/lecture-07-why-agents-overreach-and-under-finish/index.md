@@ -3,6 +3,8 @@
 
 # Lecture 07. Draw Clear Task Boundaries for Agents
 
+> Full templates and example snippets: [inline-examples](./code/inline-examples.md)
+
 Asked to "add user authentication," Claude Code also changes the schema, routes, frontend and error middleware. Two hours later: 12 files, 800 lines, nothing works end-to-end. Agents "do a little extra," and doing too much at once ensures nothing is done well.
 
 Anthropic's "Effective harnesses for long-running agents" says broad prompts make agents "start multiple things at once" rather than "finish one thing first." OpenAI's Codex practices found completion rates plummet without explicit scope controls. This is a harness problem: you didn't draw the boundary.

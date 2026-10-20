@@ -3,6 +3,8 @@
 
 # Lecture 9. Preventing Agents from Declaring Victory Too Early
 
+> Full templates and example snippets: [inline-examples](./code/inline-examples.md)
+
 An agent implements "password reset," its unit tests pass, and it says "done." In reality the email config is missing, the migration failed halfway leaving the schema inconsistent, and the end-to-end flow never ran.
 
 This is systematic: Guo et al. (ICML 2017) showed **modern neural networks are overconfident**, with confidence well above accuracy. Agents are no different, so the harness must replace their "feelings" with execution-based verification.

@@ -3,6 +3,8 @@
 
 # Lecture 08. Use Feature Lists to Constrain What the Agent Does
 
+> Full templates and example snippets: [inline-examples](./code/inline-examples.md)
+
 An agent builds an e-commerce site and reports "done," but the checkout button does nothing and payment isn't connected. You never defined "done," so it used its own: "a lot of code that looks fairly complete."
 
 A feature list is not a memo; it is the structure a harness is built on. The scheduler picks tasks from it, the verifier judges by it, the handoff reporter summarizes from it. Anthropic and OpenAI both stress that **artifacts must be externalized**: feature state lives in a machine-readable repo file, not conversation text.

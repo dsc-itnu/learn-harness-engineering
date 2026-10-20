@@ -3,6 +3,8 @@
 
 # Lecture 14. From Single Loops to Graph Engineering
 
+> Full templates and example snippets: [inline-examples](./code/inline-examples.md)
+
 On July 18, 2026, six weeks after Loop Engineering went mainstream, Peter Steinberger (OpenClaw author) tweeted: "Are we still talking loops or have we moved on to graphs yet?" It drew ~575K views in a day, ~3M by month end. Hours later Hamel Husain published *Loop Engineering Is Dead. Enter Graph Engineering* — body: a single "Stop it" GIF — for ~680k more views.
 
 **Both were joking**, yet courses and tool stacks flooded in, with fabricated numbers: "+18% accuracy, −85% cost" is fake (real figures from a chemical piping paper, different baselines), as is "Microsoft, Stanford, and Anthropic all discovered it at once." The one genuine precursor is Josh Simmons' *We Are Entering the Graph Engineering Phase* (July 4). **The joke made the idea trendy. It did not create it.**

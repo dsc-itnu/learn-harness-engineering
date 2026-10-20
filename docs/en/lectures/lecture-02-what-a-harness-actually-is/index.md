@@ -3,6 +3,8 @@
 
 # Lecture 02. What a Harness Actually Is
 
+> Full templates and example snippets: [inline-examples](./code/inline-examples.md)
+
 When people say "harness" they usually mean a prompt file. A prompt file is not a harness. A harness has five subsystems: instructions, tools, environment, state, and feedback.
 
 ## Start with an Analogy

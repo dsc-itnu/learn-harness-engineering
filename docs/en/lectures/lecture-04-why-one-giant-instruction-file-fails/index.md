@@ -3,6 +3,8 @@
 
 # Lecture 04. Split Instructions Across Files
 
+> Full templates and example snippets: [inline-examples](./code/inline-examples.md)
+
 An `AGENTS.md` that grows from 300 to 600 lines over three months makes the agent worse: simple fixes burn context on deployment rules, a security constraint at line 300 is ignored, contradictory style rules get picked at random. Only a third of it is relevant to any task. This is the "giant instruction file" trap.
 
 ## The Vicious Cycle at the Root

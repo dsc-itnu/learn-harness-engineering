@@ -3,6 +3,8 @@
 
 # Lecture 12. Leave a Clean Handoff at the End of Every Session
 
+> Full templates and example snippets: [inline-examples](./code/inline-examples.md)
+
 An agent works all afternoon, changes 20 files, commits, and the session ends. The next session finds a broken build, red tests, scattered debug files, a stale feature list and opaque progress, and spends 30 minutes working out what happened. OpenAI and Anthropic agree **long-term reliability depends on operational discipline, not just single-run success**: end-of-session state determines the next session's efficiency.
 
 ## Entropy Growth Is the Default State

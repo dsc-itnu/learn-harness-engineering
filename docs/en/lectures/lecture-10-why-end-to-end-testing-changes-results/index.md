@@ -3,6 +3,8 @@
 
 # Lecture 10. Only a Full Pipeline Run Counts as Real Verification
 
+> Full templates and example snippets: [inline-examples](./code/inline-examples.md)
+
 An agent adds file export to an Electron app (renderer, preload, service); all unit tests pass. Clicking export reveals a wrong path format, an unresponsive progress bar and a memory leak: five boundary defects, none caught. Google's Testing Pyramid says a large unit base is essential, but stopping there misses interaction issues, and agents run only the fastest tests then declare completion. **Only end-to-end testing can prove the absence of system-level defects.**
 
 ## The Blind Spots of Unit Tests
